@@ -11,6 +11,7 @@ Vue.config.productionTip = false
 Vue.use(ElementUI)
 // Vue.use(axios)
 Vue.prototype.$axios = axios
+// 跨域问题，对应后台接口
 axios.defaults.baseURL = 'http://localhost:8081/api'
 Vue.prototype.$http = axios
 // axios.defaults.headers.post['Content-Type'] = 'application/json'

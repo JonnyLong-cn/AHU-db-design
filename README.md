@@ -2,7 +2,11 @@
 
 ## 说明
 
-AHU数据库设计，家居系统，主要页面如下：
+AHU数据库设计，家居系统
+
+## 接口文档
+
+见后端swagger-ui.html
 
 ### 登录
 
@@ -35,14 +39,6 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
 
